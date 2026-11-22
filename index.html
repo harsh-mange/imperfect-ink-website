@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Imperfect Ink by Shilpa — handcrafted resin art and botanical keepsakes." />
+  <title>Imperfect Ink by Shilpa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .product-gallery{min-width:0;position:relative}.gallery-scroll{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:0}.gallery-scroll::-webkit-scrollbar{display:none}.gallery-slide{flex:0 0 100%;height:580px;border-radius:6px;scroll-snap-align:start;background:var(--sand)}.gallery-counter{position:absolute;z-index:2;top:14px;right:14px;background:rgba(255,248,240,.9);padding:5px 9px;border-radius:3px;font-size:12px;font-weight:600}.gallery-arrow{position:absolute;z-index:2;top:50%;transform:translateY(-50%);width:40px;height:40px;border:0;border-radius:50%;background:rgba(255,248,240,.92);color:var(--ink);font-size:30px;line-height:1;box-shadow:var(--shadow)}.gallery-arrow:hover{background:#fff}.gallery-prev{left:14px}.gallery-next{right:14px}@media(max-width:800px){.gallery-slide{height:390px}}@media(max-width:480px){.gallery-slide{height:330px}.gallery-arrow{width:34px;height:34px;font-size:25px}}
+    .product-card{position:relative;transition:transform .2s,box-shadow .2s}.product-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(80,58,48,.14)}.card-media{overflow:hidden}.card-media img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s ease}.product-card:hover .card-media img{transform:scale(1.04)}.image-count{position:absolute;right:12px;top:12px;background:rgba(255,248,240,.9);padding:4px 8px;border-radius:3px;font-size:11px}.card-topline{display:flex;align-items:start;justify-content:space-between;gap:12px}.card-topline h3{margin-top:0}.wishlist-btn{border:0;background:transparent;color:var(--terra);font-size:25px;line-height:1;padding:0 2px}.wishlist-btn.is-saved{color:#a33e32}.inquiry-trust{display:flex;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:15px}.btn:focus-visible,.input:focus-visible,.field:focus-visible,.wishlist-btn:focus-visible,.gallery-arrow:focus-visible{outline:3px solid rgba(139,79,44,.35);outline-offset:2px}@media(max-width:800px){.inquiry-trust{display:grid;gap:6px}}
+    .js-ready main,.js-ready footer{animation:page-in .55s cubic-bezier(.22,1,.36,1) both}.reveal{opacity:0;transform:translateY(22px);transition:opacity .75s ease,transform .75s cubic-bezier(.22,1,.36,1)}.reveal.is-visible{opacity:1;transform:none}.stagger-item{opacity:0;transform:translateY(16px);animation:stagger-in .65s cubic-bezier(.22,1,.36,1) forwards;animation-delay:calc(var(--i) * 70ms)}.hero-art{transition:transform .8s cubic-bezier(.22,1,.36,1),box-shadow .35s ease}.hero-art:hover{box-shadow:0 22px 55px rgba(80,58,48,.16)}.gallery-slide{opacity:1;transition:transform .45s ease}.gallery-scroll{scroll-behavior:smooth}.gallery-arrow{transition:transform .2s ease,background .2s ease,box-shadow .2s ease}.gallery-arrow:hover{transform:translateY(-50%) scale(1.08);box-shadow:0 8px 20px rgba(80,58,48,.18)}.gallery-counter{transition:opacity .25s ease}.navlinks a{position:relative}.navlinks a:not(.btn)::after{content:'';position:absolute;left:0;right:100%;bottom:-7px;height:1px;background:var(--terra);transition:right .25s ease}.navlinks a:not(.btn):hover::after{right:0}.menu{transition:transform .25s ease}.menu:hover{transform:rotate(8deg)}@keyframes page-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}@keyframes stagger-in{to{opacity:1;transform:none}}@media(prefers-reduced-motion:reduce){.js-ready main,.js-ready footer,.reveal,.stagger-item{animation:none!important;transition:none!important;opacity:1!important;transform:none!important}.gallery-scroll{scroll-behavior:auto}}
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js?v=20261118-3"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <script src="supabase-client.js?v=20261118-3"></script>
+  <script src="app.js?v=20261119-4"></script>
+  <script src="supabase-cms.js?v=20261119-2"></script>
+</body>
+</html>

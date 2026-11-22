@@ -1,0 +1,45 @@
+# Generated deployment and design-export output
+netlify-dist/
+_stitch_export/
+*.zip
+
+# Local logs and runtime/debug output
+server*.log
+server-*.log
+*.log
+
+# Environment files and local secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*credential*
+*secret*
+*token*
+*password*
+
+# Dependencies and build caches
+node_modules/
+.cache/
+.parcel-cache/
+.vite/
+.next/
+coverage/
+*.tmp
+*.temp
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Nested Git repositories; keep the root repository's .git directory intact
+/*/.git/
+**/*/.git/
